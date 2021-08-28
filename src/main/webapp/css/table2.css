@@ -23,7 +23,7 @@ td{
 	border: orange 1px solid;
 }
 
-tr:hover {
+.tbl_tr:hover {
 	background-color: #dfdfdf;
 	cursor: pointer;
 }

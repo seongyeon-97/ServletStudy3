@@ -1,0 +1,84 @@
+@charset "UTF-8";
+.btn{
+	width: 100px;
+	height:70px;
+	background-color: olive;
+	color: white;
+	border-radius: 50px;
+	box-shadow : 3px 3px 3px black;
+	transition-duration: 0.3s;
+}
+
+.btn:active{
+	font-weight: bolder;
+	margin-left: 3px;
+	margin-top : 3px;
+	box-shadow : none;
+	
+}
+
+.btn2{
+	margin-top: 50px;
+	display: inline-block;
+	background-color: #8080ff;
+	width: 100px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 300px;
+}
+
+.btn2:hover {
+	background-color: #0080c0;
+	font-weight: bolder;
+}
+
+.btn3{
+	margin-top:50px;
+	width: 330px;
+	height: 197px;
+	background-color: #b4aed5;
+}
+
+.btn3:hover{
+	background-image: url("../images/son.jpg");
+	color: white;
+	font-weight: bolder;
+}
+	
+.btn4{
+	margin-top: 50px;
+	width: 150px;
+	height: 70px;
+	background-color: #c0c0c0;
+	transition-duration: 0.3s;
+}
+
+.btn4:active {
+	font-weight: bolder;
+	background-color: #636363;
+	margin-left: 203px;
+	margin-top : 53px;
+	box-shadow : none;
+}
+
+.btn5{
+	color: #006200;
+	background-color: #ccffcc;
+	margin-top: 50px;
+	width:100px;
+	height: 60px;
+	border-radius: 30px;
+	box-shadow : 3px 3px 3px black;
+	transition-duration: 0.3s;
+}
+
+.btn:active{
+	font-weight: bolder;
+	margin-left: 3px;
+	margin-top : 3px;
+	box-shadow : none;
+	
+}
+

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+h1{
+	margin: 0 auto;
+	text-align: center;
+}
+
+table{
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: orange 3px double;
+}
+
+th{
+	border: orange 1px solid;
+	border-right: orange 1px solid;
+	background-color: #ffddbb;
+}
+
+td{
+	border: orange 1px solid;
+}
+
+tr:hover {
+	background-color: gray;
+	cursor: pointer;
+}

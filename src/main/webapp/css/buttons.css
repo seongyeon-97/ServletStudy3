@@ -67,9 +67,9 @@
 	color: #006200;
 	background-color: #ccffcc;
 	margin-top: 50px;
-	width:100px;
-	height: 60px;
-	border-radius: 30px;
+	width: 100px;
+	height:70px;
+	border-radius: 50px;
 	box-shadow : 3px 3px 3px black;
 	transition-duration: 0.3s;
 }

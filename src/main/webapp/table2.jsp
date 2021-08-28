@@ -8,29 +8,29 @@
 <link href="./css/table2.css" rel="stylesheet">
 </head>
 <body>
-	<h1>영화 상영표</h1>
+	<h1 class="title">영화 상영표</h1>
 		<table>
 			<tr>
-				<th>영화 제목</th><th>시간</th><th>상영관</th>
+				<th class="th">영화 제목</th><th class="th">시간</th><th class="th">상영관</th>
 			</tr>
 			<tr>
 				<td>모가디슈</td>
-				<td>16:45 ~ 18:56</td>
+				<td><a href="#">16:45 ~ 18:56</a></td>
 				<td>1관</td>
 			</tr>
 			<tr>
 				<td>프리가이</td>
-				<td>17:15 ~ 19:20</td>
+				<td><a href="#">17:15 ~ 19:20</a></td>
 				<td>IMAX</td>
 			</tr>
 			<tr>
 				<td>귀문</td>
-				<td>16:00 ~ 17:35</td>
+				<td><a href="#">16:00 ~ 17:35</a></td>
 				<td>2관[SCREENX]</td>
 			</tr>
 			<tr>
 				<td>인질</td>
-				<td>16:00 ~ 17:44</td>
+				<td><a href="#">16:00 ~ 17:44</a></td>
 				<td>SPHERE X</td>
 			</tr>
 		</table>

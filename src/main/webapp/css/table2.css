@@ -1,26 +1,29 @@
 @charset "UTF-8";
-h1{
+.title{
 	margin: 0 auto;
 	text-align: center;
 }
 
 table{
+	width: 60%;
 	margin: 0 auto;
 	border-collapse: collapse;
 	border: orange 3px double;
 }
 
-th{
+.th{
 	border: orange 1px solid;
-	border-right: orange 1px solid;
+	border-spacing: 0px;
+	border-collapse: collapse;
 	background-color: #ffddbb;
 }
 
 td{
+	text-align: center;
 	border: orange 1px solid;
 }
 
 tr:hover {
-	background-color: gray;
+	background-color: #dfdfdf;
 	cursor: pointer;
 }

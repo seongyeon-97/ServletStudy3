@@ -7,7 +7,7 @@
 }
 
 .tbl{
-	border : black solid 1px;
+	border : black double 3px;
 	border-spacing: 0px;
 	border-collapse: collapse;
 	width: 80%;
@@ -19,11 +19,10 @@
 	border-spacing: 0px;
 	border-collapse: collapse;
 	background-color: #c798f1;
-	
-	
 }
 
 .tbl_tr_2{
+	text-align: center;
 	border : black solid 1px;
 	border-spacing: 0px;
 	border-collapse: collapse;
@@ -31,6 +30,7 @@
 }
 
 .tbl_tr_3{
+	text-align: center;
 	border : black solid 1px;
 	border-spacing: 0px;
 	border-collapse: collapse;
@@ -38,6 +38,7 @@
 }
 
 .tbl_tr_4{
+	text-align: center;
 	border : black solid 1px;
 	border-spacing: 0px;
 	border-collapse: collapse;
@@ -45,8 +46,36 @@
 }
 
 .tbl_tr_5{
+	text-align: center;
 	border : black solid 1px;
 	border-spacing: 0px;
 	border-collapse: collapse;
 	background-color: #f3e9fc;
+}
+
+.page{
+	margin: 0 auto;
+	list-style:none;
+	float:left;
+	display:inline-block;
+}
+
+.num{
+	float:left;
+}
+.fo{
+	float:left;
+	padding:4px;
+	margin-right:3px;
+	width:40px;
+	color:#000;
+	font:bold 12px tahoma;
+	border:1px solid #eee;
+	text-align:center;
+	text-decoration:none;
+}
+.fo:hover, .fo:focus {
+	color:#fff;
+	border:1px solid #f40;
+	background-color:#f40;
 }

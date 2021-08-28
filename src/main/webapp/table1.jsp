@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<link href="./css/tables.css" rel="stylesheet">
+<link href="./css/table1.css" rel="stylesheet">
 </head>
 <body>
 	<h1 class="title">좋아하는 노래</h1>
@@ -34,5 +34,10 @@
 				<td class="tbl_tr_5">Next Level</td>								
 			</tr>
 	</table>
+	<ul class="page">
+  		<li class="num"><a href="#" class="fo">이전</a></li>
+  		<li class="num"><a href="#" class="fo">다음</a></li>
+	    
+	</ul>
 </body>
 </html>

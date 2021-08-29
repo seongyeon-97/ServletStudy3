@@ -52,16 +52,22 @@
 	border-collapse: collapse;
 	background-color: #f3e9fc;
 }
-
+div{
+	display:inline-block;
+	margin-top: 20px;
+	margin-left: 500px;
+}
 .page{
-	margin: 0 auto;
+	margin-left:550px;
 	list-style:none;
 	float:left;
-	display:inline-block;
+	display:inline;
 }
 
 .num{
 	float:left;
+	margin-left: auto;
+    margin-right: auto;
 }
 .fo{
 	float:left;
